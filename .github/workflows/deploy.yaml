@@ -17,6 +17,6 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Build Docker image
-        run: docker build -t salamandra1997/pythonapi:latest .
+        run: docker build -t leowarrior/pythonapi:latest .
       - name: Push Docker image
-        run: docker push salamandra1997/pythonapi:latest
+        run: docker push leowarrior/pythonapi:latest
