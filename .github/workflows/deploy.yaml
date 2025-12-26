@@ -19,4 +19,4 @@ jobs:
       - name: Build Docker image
         run: docker build -t salamandra1997/pythonapi:latest .
       - name: Push Docker image
-        run: docker push salamandra1997/pythonapi:latestgi
+        run: docker push salamandra1997/pythonapi:latest
